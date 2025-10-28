@@ -25,6 +25,8 @@ N_FRAMES = 157
 N_FFT = 512
 HOP_LENGTH = 128  # FIXED: Use 128 like in training, not 256
 
+# print("testing")
+
 class PredictionResponse(BaseModel):
     label: str
     confidence: float
